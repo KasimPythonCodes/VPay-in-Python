@@ -1,0 +1,1 @@
+web:waitress-serve --port=$PORT vgopay.wsgi:application
