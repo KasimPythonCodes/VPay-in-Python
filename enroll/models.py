@@ -46,7 +46,7 @@ class Pan_card(models.Model):
     forent_pan_image=models.ImageField(upload_to='pan_image')
 
     def __str__(self):
-        return str(self.id)
+        return str(self.user)
 
 
 
